@@ -1,0 +1,10 @@
+D:\Code\Git\StreameReader_read_ini\StreameReader_read_ini\bin\Debug\StreameReader_read_ini.exe.config
+D:\Code\Git\StreameReader_read_ini\StreameReader_read_ini\bin\Debug\StreameReader_read_ini.exe
+D:\Code\Git\StreameReader_read_ini\StreameReader_read_ini\bin\Debug\StreameReader_read_ini.pdb
+D:\Code\Git\StreameReader_read_ini\StreameReader_read_ini\obj\Debug\StreameReader_read_ini.csprojAssemblyReference.cache
+D:\Code\Git\StreameReader_read_ini\StreameReader_read_ini\obj\Debug\StreameReader_read_ini.Form1.resources
+D:\Code\Git\StreameReader_read_ini\StreameReader_read_ini\obj\Debug\StreameReader_read_ini.Properties.Resources.resources
+D:\Code\Git\StreameReader_read_ini\StreameReader_read_ini\obj\Debug\StreameReader_read_ini.csproj.GenerateResource.cache
+D:\Code\Git\StreameReader_read_ini\StreameReader_read_ini\obj\Debug\StreameReader_read_ini.csproj.CoreCompileInputs.cache
+D:\Code\Git\StreameReader_read_ini\StreameReader_read_ini\obj\Debug\StreameReader_read_ini.exe
+D:\Code\Git\StreameReader_read_ini\StreameReader_read_ini\obj\Debug\StreameReader_read_ini.pdb
