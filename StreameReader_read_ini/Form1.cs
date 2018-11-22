@@ -10,6 +10,7 @@ namespace StreameReader_read_ini
     {
         OpenFileDialog openFileDialog = new OpenFileDialog();
         string FilePath;
+        
         public Form1()
         {
             InitializeComponent();
@@ -39,7 +40,8 @@ namespace StreameReader_read_ini
                     //skip start at beginning of the string (null)
                     if (sr_buffer == null || sr_buffer == "")
                     {
-                        continue;
+                        MessageBox.Show("no match title or item");
+                        break;
                     }
                     //skip start at beginning of the string (// and #)
                     if (Regex.Match(sr_buffer, @"^(//|#).*$").Success)
@@ -50,10 +52,21 @@ namespace StreameReader_read_ini
                     if (Regex.Match(sr_buffer, @"^\[.*\]").Success)
                     {
                         //check Title is right
-                        if (Regex.Match(sr_buffer, Title).Success)
+                        if (Regex.Match(sr_buffer, @"\b" + Title + @"\b").Success)
                         {
                             Title_Check = true;
                         }
+                        //if(Regex.Match(sr_buffer, Title).Success)
+                        //{
+                        //    Title_Check = true;
+                        //}
+                        //if(sr_buffer.Equals(Title))
+                        //{
+                        //    Title_Check = true;
+                        //}else
+                        //{
+                        //    Title_Check = false;
+                        //}
                     }
                     if (Title_Check)
                     {
